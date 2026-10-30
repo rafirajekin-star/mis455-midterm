@@ -4,4 +4,25 @@
     justify-content:space-between;
     gap:30px;
     padding: 40px;
+
+}
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.product-card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.product-card img {
+    width: 100%;
+}
+
+nav a:hover {
+    background-color: orange;
+    color: black;
 }
